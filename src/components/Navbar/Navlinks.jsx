@@ -32,7 +32,7 @@ const Navlinks = () => {
             {
                 links.map((link, index) => (
                     <li key={index}>
-                        <Link className={`btn ml-1 ${pathname === link.path ? 'bg-[#244D3F] text-base-100 rounded-md' : 'btn-ghost text-[#64748B]'}`} href={link.path}>
+                        <Link className={`btn w-full ${pathname === link.path ? 'bg-[#244D3F] text-base-100 rounded-md' : 'btn-ghost text-[#64748B]'}`} href={link.path}>
                             {link.icon}
                             {link.name}
                         </Link>
