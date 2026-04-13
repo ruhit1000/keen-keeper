@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "john@example.com",
+        "days_since_contact": 20,
+        "status": "Overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2026-03-25",
+        "job_type": "Full-time",
+        "work_location": "Sunamganj, Bangladesh"
+    },
+    {
+        "id": 2,
+        "name": "Ayesha Rahman",
+        "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "ayesha.r@example.com",
+        "days_since_contact": 28,
+        "status": "Almost Due",
+        "tags": [
+            "hackathon",
+            "colleague"
+        ],
+        "bio": "Teammate from Eco-Trek project. Brilliant designer.",
+        "goal": 30,
+        "next_due_date": "2026-04-15",
+        "job_type": "Remote",
+        "work_location": "Dhaka, Bangladesh"
+    },
+    {
+        "id": 3,
+        "name": "Michael Chen",
+        "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "mchen@example.com",
+        "days_since_contact": 5,
+        "status": "On-Track",
+        "tags": [
+            "networking",
+            "tech"
+        ],
+        "bio": "Met at a JavaScript meetup. Discusses MERN stack often.",
+        "goal": 90,
+        "next_due_date": "2026-07-07",
+        "job_type": "Contract",
+        "work_location": "Toronto, Canada"
+    },
+    {
+        "id": 4,
+        "name": "Sarah Jenkins",
+        "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "sarah.j@example.com",
+        "days_since_contact": 65,
+        "status": "Overdue",
+        "tags": [
+            "mentor",
+            "industry"
+        ],
+        "bio": "Senior developer who reviewed my Travellian project.",
+        "goal": 60,
+        "next_due_date": "2026-02-10",
+        "job_type": "Full-time",
+        "work_location": "New York, USA"
+    },
+    {
+        "id": 5,
+        "name": "David Silva",
+        "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "dsilva.dev@example.com",
+        "days_since_contact": 13,
+        "status": "Almost Due",
+        "tags": [
+            "freelance",
+            "client"
+        ],
+        "bio": "Helped set up his e-commerce backend.",
+        "goal": 14,
+        "next_due_date": "2026-04-14",
+        "job_type": "Freelance",
+        "work_location": "Lisbon, Portugal"
+    },
+    {
+        "id": 6,
+        "name": "Emily Carter",
+        "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "emily.c@example.com",
+        "days_since_contact": 2,
+        "status": "On-Track",
+        "tags": [
+            "travel",
+            "digital nomad"
+        ],
+        "bio": "Travel vlogger we met in Manali.",
+        "goal": 30,
+        "next_due_date": "2026-05-11",
+        "job_type": "Self-employed",
+        "work_location": "Nomadic"
+    },
+    {
+        "id": 7,
+        "name": "Rahul Sharma",
+        "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "rahul.s@example.com",
+        "days_since_contact": 180,
+        "status": "Overdue",
+        "tags": [
+            "high school",
+            "childhood friend"
+        ],
+        "bio": "Grew up together. Keeps promising to visit.",
+        "goal": 365,
+        "next_due_date": "2025-12-15",
+        "job_type": "Full-time",
+        "work_location": "Delhi, India"
+    },
+    {
+        "id": 8,
+        "name": "Nadia Hassan",
+        "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "nhassan@example.com",
+        "days_since_contact": 8,
+        "status": "On-Track",
+        "tags": [
+            "SCIC",
+            "study group"
+        ],
+        "bio": "Study partner for advanced React concepts.",
+        "goal": 14,
+        "next_due_date": "2026-04-19",
+        "job_type": "Part-time",
+        "work_location": "Remote"
+    },
+    {
+        "id": 9,
+        "name": "Liam O'Connor",
+        "picture": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "liam.oc@example.com",
+        "days_since_contact": 27,
+        "status": "Almost Due",
+        "tags": [
+            "hobby",
+            "hardware"
+        ],
+        "bio": "Traded mechanical keyboard parts with him.",
+        "goal": 30,
+        "next_due_date": "2026-04-16",
+        "job_type": "Full-time",
+        "work_location": "Dublin, Ireland"
+    },
+    {
+        "id": 10,
+        "name": "Sophia Martinez",
+        "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&h=200&auto=format&fit=crop",
+        "email": "smartinez@example.com",
+        "days_since_contact": 1,
+        "status": "On-Track",
+        "tags": [
+            "recruiter",
+            "tech"
+        ],
+        "bio": "Reached out via LinkedIn regarding a full-stack role.",
+        "goal": 7,
+        "next_due_date": "2026-04-19",
+        "job_type": "Full-time",
+        "work_location": "Austin, USA"
+    }
+]

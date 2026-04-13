@@ -1,4 +1,4 @@
-import ButtonPrimary from '@/components/Buttons/ButtonPrimary';
+import ButtonPrimary from '@/components/ui/Buttons/ButtonPrimary';
 import React from 'react';
 import { IoAdd } from 'react-icons/io5';
 
