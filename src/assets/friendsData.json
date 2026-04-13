@@ -12,9 +12,7 @@
         ],
         "bio": "Met in university. Love hiking together.",
         "goal": 14,
-        "next_due_date": "2026-03-25",
-        "job_type": "Full-time",
-        "work_location": "Sunamganj, Bangladesh"
+        "next_due_date": "2026-03-25"
     },
     {
         "id": 2,
@@ -29,9 +27,7 @@
         ],
         "bio": "Teammate from Eco-Trek project. Brilliant designer.",
         "goal": 30,
-        "next_due_date": "2026-04-15",
-        "job_type": "Remote",
-        "work_location": "Dhaka, Bangladesh"
+        "next_due_date": "2026-04-15"
     },
     {
         "id": 3,
@@ -46,9 +42,7 @@
         ],
         "bio": "Met at a JavaScript meetup. Discusses MERN stack often.",
         "goal": 90,
-        "next_due_date": "2026-07-07",
-        "job_type": "Contract",
-        "work_location": "Toronto, Canada"
+        "next_due_date": "2026-07-07"
     },
     {
         "id": 4,
@@ -63,9 +57,7 @@
         ],
         "bio": "Senior developer who reviewed my Travellian project.",
         "goal": 60,
-        "next_due_date": "2026-02-10",
-        "job_type": "Full-time",
-        "work_location": "New York, USA"
+        "next_due_date": "2026-02-10"
     },
     {
         "id": 5,
@@ -80,9 +72,7 @@
         ],
         "bio": "Helped set up his e-commerce backend.",
         "goal": 14,
-        "next_due_date": "2026-04-14",
-        "job_type": "Freelance",
-        "work_location": "Lisbon, Portugal"
+        "next_due_date": "2026-04-14"
     },
     {
         "id": 6,
@@ -97,9 +87,7 @@
         ],
         "bio": "Travel vlogger we met in Manali.",
         "goal": 30,
-        "next_due_date": "2026-05-11",
-        "job_type": "Self-employed",
-        "work_location": "Nomadic"
+        "next_due_date": "2026-05-11"
     },
     {
         "id": 7,
@@ -114,9 +102,7 @@
         ],
         "bio": "Grew up together. Keeps promising to visit.",
         "goal": 365,
-        "next_due_date": "2025-12-15",
-        "job_type": "Full-time",
-        "work_location": "Delhi, India"
+        "next_due_date": "2025-12-15"
     },
     {
         "id": 8,
@@ -131,9 +117,7 @@
         ],
         "bio": "Study partner for advanced React concepts.",
         "goal": 14,
-        "next_due_date": "2026-04-19",
-        "job_type": "Part-time",
-        "work_location": "Remote"
+        "next_due_date": "2026-04-19"
     },
     {
         "id": 9,
@@ -148,9 +132,7 @@
         ],
         "bio": "Traded mechanical keyboard parts with him.",
         "goal": 30,
-        "next_due_date": "2026-04-16",
-        "job_type": "Full-time",
-        "work_location": "Dublin, Ireland"
+        "next_due_date": "2026-04-16"
     },
     {
         "id": 10,
@@ -165,8 +147,6 @@
         ],
         "bio": "Reached out via LinkedIn regarding a full-stack role.",
         "goal": 7,
-        "next_due_date": "2026-04-19",
-        "job_type": "Full-time",
-        "work_location": "Austin, USA"
+        "next_due_date": "2026-04-19"
     }
 ]

@@ -3,8 +3,9 @@ import friendsData from '@/assets/friendsData.json';
 import Image from 'next/image';
 import { RiNotificationSnoozeLine } from 'react-icons/ri';
 import { MdOutlineArchive } from 'react-icons/md';
-import { FaHistory, FaRegTrashAlt } from 'react-icons/fa';
+import { FaRegTrashAlt } from 'react-icons/fa';
 import CheckInButtons from '@/components/ui/CheckInButtons/CheckInButtons';
+import RecentInterection from '@/components/ui/RecentInteraction/RecentInterection';
 
 const CurrentFriendPage = async ({ params }) => {
     const { friendId } = await params;
@@ -20,14 +21,13 @@ const CurrentFriendPage = async ({ params }) => {
         tags,
         bio,
         goal,
-        next_due_date,
-        job_type,
-        work_location
+        next_due_date
     } = friend;
 
     return (
         <div className='bg-[#F8FAFC] py-20'>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 w-[95%] lg:container mx-auto'>
+                {/* left side */}
                 <div className='col-span-1'>
                     <div className='p-6 bg-base-100 shadow-lg rounded-2xl text-center'>
                         <Image
@@ -63,6 +63,7 @@ const CurrentFriendPage = async ({ params }) => {
                         <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2 text-red-600'><FaRegTrashAlt size={20} /> Delete</button>
                     </div>
                 </div>
+                {/* Right side */}
                 <div className='md:col-span-2 space-y-6'>
                     <div className='grid grid-cols-3 gap-6'>
                         <div className='text-center py-8 px-4 bg-base-100 shadow-lg rounded-2xl  flex items-center justify-center'>
@@ -100,17 +101,9 @@ const CurrentFriendPage = async ({ params }) => {
                     </div>
                     <div className='bg-base-100 p-6 border border-base-300 shadow-lg rounded-2xl'>
                         <h3 className='font-medium text-xl text-[#244D3F] mb-4'>Quick Check-In</h3>
-                        <CheckInButtons />
+                        <CheckInButtons name={name} />
                     </div>
-                    <div className='bg-base-100 p-6 border border-base-300 shadow-lg rounded-2xl'>
-                        <div className='flex justify-between items-center'>
-                            <h3 className='font-medium text-xl text-[#244D3F] mb-4'>Recent Interactions</h3>
-                            <button className='btn btn-soft'><FaHistory /> Full History</button>
-                        </div>
-                        <div>
-                            <h2>Something</h2>
-                        </div>
-                    </div>
+                    <RecentInterection name={name} />
                 </div>
             </div>
         </div>
