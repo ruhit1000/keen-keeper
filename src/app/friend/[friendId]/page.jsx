@@ -55,7 +55,7 @@ const CurrentFriendPage = async ({ params }) => {
                             }
                         </div>
                         <p className='text-sm font-medium text-gray-600 mb-3'><i>&quot;{bio}&quot;</i></p>
-                        <p className='text-[#64748B] text-sm'>Preferred: email</p>
+                        <p className='text-[#64748B] text-sm'>{email}</p>
                     </div>
                     <div className='mt-4 space-y-3'>
                         <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2'><RiNotificationSnoozeLine size={20} /> Snooze 2 weeks</button>
