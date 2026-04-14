@@ -6,10 +6,18 @@ import { MdOutlineArchive } from 'react-icons/md';
 import { FaRegTrashAlt } from 'react-icons/fa';
 import CheckInButtons from '@/components/ui/CheckInButtons/CheckInButtons';
 import RecentInterection from '@/components/ui/RecentInteraction/RecentInterection';
+import FriendNotFoundPage from '@/components/FriendNotFound/FriendNotFound';
 
 const CurrentFriendPage = async ({ params }) => {
     const { friendId } = await params;
     const friend = friendsData.find(friend => friend.id === parseInt(friendId));
+
+    if (!friend) {
+        return (
+            <FriendNotFoundPage />
+        );
+    }
+
 
     const {
         id,
@@ -58,7 +66,7 @@ const CurrentFriendPage = async ({ params }) => {
                         <p className='text-[#64748B] text-sm'>{email}</p>
                     </div>
                     <div className='mt-4 space-y-3'>
-                        <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2'><RiNotificationSnoozeLine size={20} /> Snooze 2 weeks</button>
+                        <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2'><RiNotificationSnoozeLine size={20} /> Snooze 2 Weeks</button>
                         <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2'><MdOutlineArchive size={20} /> Archive</button>
                         <button className='bg-base-100 border border-base-300 rounded shadow-md w-full font-medium p-4 hover:bg-base-200 cursor-pointer flex items-center justify-center gap-2 text-red-600'><FaRegTrashAlt size={20} /> Delete</button>
                     </div>
