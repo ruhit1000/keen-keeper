@@ -1,33 +1,44 @@
-import React from 'react';
+'use client';
+import React, { useContext } from 'react';
+import friendsData from '@/assets/friendsData.json'
+import { CheckInContext } from '@/context/check-in.context';
 
 const Dashboard = () => {
+
+    const { checkIns } = useContext(CheckInContext);
+
+    const totalFriends = friendsData.length;
+    const onTrack = friendsData.filter(friend => friend.status === 'On-Track').length;
+    const needAttention = totalFriends - onTrack;
+    const interactionsThisMonth = checkIns.length;
+
     return (
         <div className='w-[95%] lg:container mx-auto grid grid-cols-2 lg:grid-cols-4 place-items-center gap-6 mb-10 border-b border-base-300 pb-10'>
             <div className='bg-base-100 py-8 border border-base-300 shadow-lg w-full flex items-center justify-center rounded-lg'>
                 <div className='text-center'>
-                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>10</h2>
+                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>{totalFriends}</h2>
                     <p className='text-[#64748B] text-lg'>Total Friends</p>
                 </div>
             </div>
             <div className='bg-base-100 py-8 border border-base-300 shadow-lg w-full flex items-center justify-center rounded-lg'>
                 <div className='text-center'>
-                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>10</h2>
+                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>{onTrack}</h2>
                     <p className='text-[#64748B] text-lg'>On Track</p>
                 </div>
             </div>
             <div className='bg-base-100 py-8 border border-base-300 shadow-lg w-full flex items-center justify-center rounded-lg'>
                 <div className='text-center'>
-                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>10</h2>
+                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>{needAttention}</h2>
                     <p className='text-[#64748B] text-lg'>Need Attention</p>
                 </div>
             </div>
             <div className='bg-base-100 py-8 border border-base-300 shadow-lg w-full flex items-center justify-center rounded-lg'>
                 <div className='text-center'>
-                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>10</h2>
+                    <h2 className='font-semibold text-3xl text-[#244D3F] mb-2'>{interactionsThisMonth}</h2>
                     <p className='text-[#64748B] text-lg'>Interactions This Month</p>
                 </div>
             </div>
-            
+
         </div>
     );
 };
