@@ -4,7 +4,7 @@ Keen Keeper is a friendship and relationship tracking web app built with Next.js
 
 ## Live Demo
 
-Live Link: ____________________
+Live Link: [Click Here](https://keen-keeper-tau.vercel.app/)
 
 ## Technologies Used
 
